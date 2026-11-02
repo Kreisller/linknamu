@@ -1,6 +1,6 @@
 import Image from "next/image";
 import InterestTag from "@/components/InterestTag";
-import LinkCard from "@/components/LinkCard";
+import LinkList from "@/components/LinkList";
 import { profile } from "@/lib/profile";
 
 export default function Home() {
@@ -30,9 +30,7 @@ export default function Home() {
 
         {/* 링크 카드 목록 (세로 배치) */}
         <div className="mt-12 flex w-full flex-col gap-3.5">
-          {profile.links.map((link) => (
-            <LinkCard key={link.title} title={link.title} url={link.url} />
-          ))}
+          <LinkList links={profile.links} />
         </div>
       </div>
     </main>

@@ -3,8 +3,8 @@
   "bio": "사업가를 꿈꾸는 청년",
   "tags": ["창업", "스타트업", "마케팅", "독서"],
   "links": [
-    { "title": "GitHub", "url": "https://github.com/Kreisller" },
-    { "title": "LinkedIn", "url": "https://www.linkedin.com" },
-    { "title": "Blog", "url": "https://velog.io" }
+    { "id": "github", "title": "GitHub", "url": "https://github.com/Kreisller" },
+    { "id": "linkedin", "title": "LinkedIn", "url": "https://www.linkedin.com" },
+    { "id": "blog", "title": "Blog", "url": "https://velog.io" }
   ]
 }
