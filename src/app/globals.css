@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #0ea5e9;
+  --color-ink: #1e293b;
+}
+
+body {
+  min-height: 100dvh;
+  background: linear-gradient(180deg, #f8fafc 0%, #e0f2fe 100%);
+  background-attachment: fixed;
+  color: #1e293b;
+  font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+}
